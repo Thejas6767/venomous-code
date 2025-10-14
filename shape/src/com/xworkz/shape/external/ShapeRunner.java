@@ -12,7 +12,7 @@ public class ShapeRunner {
 
         Shape rectangle = new Rectangle("Blue", rectangleDimensions);
 
-        
+
         rectangle.displayShapeInfo();
     }
 }
