@@ -8,11 +8,7 @@ public class ShapeRunner {
     public static void main(String[] args) {
 
         Area rectangleDimensions = new Area(10.5, 5.0);
-
-
         Shape rectangle = new Rectangle("Blue", rectangleDimensions);
-
-
         rectangle.displayShapeInfo();
     }
 }

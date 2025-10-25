@@ -8,11 +8,7 @@ public class HomeAutomation {
     public static void main(String[] args) {
 
         PowerSource homePower =  new PowerSource("120V AC", 15.0);
-
-
-        Appliance myFridge = new Refrigerator("RF28R7351SG", "Samsung", homePower);
-
-
+        Appliance myFridge = new Refrigerator("674632482364723", "Samsung", homePower);
         myFridge.displayApplianceInfo();
     }
 }

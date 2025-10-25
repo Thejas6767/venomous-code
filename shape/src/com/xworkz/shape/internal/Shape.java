@@ -16,6 +16,6 @@ public abstract class Shape {
         System.out.println("Shape color = " + shapeColor);
         System.out.println("Shape Length = " + dimensions.length);
         System.out.println("Shape Width = " + dimensions.width);
-        System.out.println("Calculated Area = " + (dimensions.length * dimensions.width));
+
     }
 }
